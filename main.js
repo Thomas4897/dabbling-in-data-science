@@ -49,11 +49,48 @@ async function main() {
 		type: "bar",
 		data: {
 			labels: labels,
+
 			datasets: [
 				{
+					label: "# of Dunkin' Donuts Stores",
+					borderColor: "white",
 					data: data,
+					backgroundColor: "#fb4da6",
 				},
 			],
+		},
+
+		options: {
+			plugins: {
+				legend: {
+					labels: {
+						color: "white",
+						font: {
+							size: 16,
+						},
+					},
+				},
+			},
+			scales: {
+				y: {
+					ticks: {
+						color: "white",
+						font: {
+							size: 16,
+						},
+						stepSize: 200,
+						beginAtZero: true,
+					},
+				},
+				x: {
+					ticks: {
+						color: "white",
+						font: {
+							size: 16,
+						},
+					},
+				},
+			},
 		},
 	});
 }

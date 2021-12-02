@@ -1,0 +1,21 @@
+body {
+	background-color: #604943;
+	display: flex;
+	align-items: center;
+	justify-items: center;
+}
+
+#myChart {
+	margin-top: 20px;
+	background-color: #ff7d2d;
+	/* border: 1px solid white; */
+	box-shadow: 0px 0px 20px 10px white;
+
+	padding: 10px;
+	border-radius: 5%;
+}
+
+/* #fb4da6; */
+/* #FF7D2D */
+/* #8B3A25 */
+/* #883a26 */
